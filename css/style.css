@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.max-container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid grey;
+}
+.topo .max-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding:0 10px;
+    align-items: center;
+}
+.topo .nome-pousada{
+    text-decoration: none;
+    font-size: 22px;
+    color: darkslategray;
+}
+.topo .nome-pousada span{
+    color: #6592c9;
+}
+.link-topo{    
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 22px;
+    color: darkslategray;
+    text-transform: uppercase;
+}
+.principal-title{
+    background-image: url('../assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-description{
+    color: #ffffff;
+    font-size: 28px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #0a9077b3;
+    text-align: center;
+    padding: 30px 20px;    
+}
+.container-informacao{
+    text-align: center;
+    color: darkslategray;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.quartos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.quartos-container{
+    text-align: center;
+}
+.quartos-container img{
+    width: 400px;
+    margin-bottom: 20px;
+    
+}
+.quartos-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: darkslategray;
+    text-transform: uppercase;    
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.descricoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.descricao{
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.descricao-conteudo {
+    flex: 1 1 auto;
+}
+.descricao img {
+    width: 100px;
+    height: 113px;
+    margin-bottom: 40px;
+    margin-left:10px;
+    object-fit: cover;
+  }
